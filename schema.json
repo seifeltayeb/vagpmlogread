@@ -1,0 +1,2201 @@
+{
+   "doorState.fondDoorLeftState":{
+      "description":"doorState Enthält den Türen- und Verriegelungszustand des Fahrzeugs. (fondDoorLeftState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "lightState_front.fogLight":{
+      "description":"lightState_front Enthält den Zustand der Frontbeleuchtung ohne Blinklicht. TRUE: EIN FALSE: AUS (fogLight)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "consumptionLongTermGeneral.speedValueState":{
+      "description":"consumptionLongTermGeneral Enthält die allgemeinen Daten des Langzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (speedValueState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "startStopState":{
+      "description":"startStopState Enthält den Zustand des StartStop-Systems. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "consumptionShortTermGeneral.distanceValue":{
+      "description":"consumptionShortTermGeneral Enthält die allgemeinen Daten des Kurzzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. Die Einheiten sind variabel und werden zusammen mit den Skalarwerten geliefert. (distanceValue)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "Radio_Tuner.ServiceComponentId":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (ServiceComponentId)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "System_UnitDistance":{
+      "description":"System_UnitDistance Einheit, welche für Entfernungen im System eingestellt ist. Typischerweise \u0026apos;km\u0026apos; oder \u0026apos;mi\u0026apos; (Unit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Media_PlayerState.Type":{
+      "description":"Media_PlayerState Beinhaltet- die aktuelle Position in ms- den Wiedergabestatus- die globale Entry ID- den Typ des aktuellen abgespielten Eintrags (Type)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_Tuner.sendsMatureContent":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (sendsMatureContent)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "hevacFanLevelRear.automatic_left":{
+      "description":"hevacFanLevelRear Enthält die Lüfterstufe hinten, links/rechts. Abhängig vom Verbau können eine oder beide Zonen \u0026quot;noData\u0026quot; liefern.isAutomatic \u003d\u003d true, wenn die Luftmenge (Lüfter) im Automatikbetrieb ist. (automatic_left)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyreRequiredPressures.pressureSpareWheel":{
+      "description":"tyreRequiredPressures Enthält die Soll-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureSpareWheel)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "temperatureRearRight":{
+      "description":"temperatureRearRight Enthält die Solltemperatur des Fondraums rechts. Liefert \u0026quot;noData\u0026quot;, wenn nicht verfügbar. (value)",
+      "max":255.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "vehicleSpeed":{
+      "description":"vehicleSpeed Enthält die vom Kombiinstrument angezeigte Fahrzeuggeschwindigkeit. (speed)",
+      "max":511.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "fuelWarningSecondaryTank":{
+      "description":"fuelWarningSecondaryTank Enthält den Warnzustand des Sekundärtanks. \u0026quot;noData\u0026quot; falls nicht verfügbar. Der Empfänger muss den Ereignischaracter dieses Objektes beachten. TRUE: Warnung aktiv; FALSE: Warnung nicht aktiv. (warningSecondaryTank)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "Nav_CurrentPosition.City":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (City)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "SPI_ConnectedDevice.AudioPlayback":{
+      "description":"SPI_ConnectedDevice SPI_Smart Phone Integration  Enth �lt die Informationen   ber ein per \u0026quot;SPI\u0026quot; verbundenes \u0026quot;Smart Phone\u0026quot;, dessen Namen und den Verbindungstyp. SPI_avaialble: FALSE: SPI-Schnittstelle ist nicht verbaut; TRUE: SPI-Schnittstelle ist verbaut. AudioPlayback: TRUE: Das SPI-Audiosignal wird wiedergegeben; FALSE: Das SPI-Audiosignal wird nicht wiedergegeben. (AudioPlayback)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "longitudinalAcceleration":{
+      "description":"longitudinalAcceleration Enthält die Längsbeschleunigung in m/s². (longitudinalAcceleration)",
+      "max":25.0,
+      "min":-25.0,
+      "resolution":1.0E-5,
+      "type":2,
+      "unit":"m/s²"
+   },
+   "tankLevelSecondary.state":{
+      "description":"tankLevelSecondary Enthält den Tankfüllstand des sekundären Antriebs. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "serviceOil.timeState":{
+      "description":"serviceOil Enthält die Daten für den Ölservice. (timeState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "vehicleTime.hour":{
+      "description":"vehicleTime Enthält die Fahrzeugzeit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. Diese Zeit ist immer eine lokale Zeit gemäß EXLAP-Spezifikation. (hour)",
+      "max":23.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"h"
+   },
+   "gearTransmissionMode":{
+      "description":"gearTransmissionMode Enthält die Wahlhebelstellung bei Verbau eines Automatikgetriebes. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (mode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyreTemperatures.temperatureRearRight":{
+      "description":"tyreTemperatures Enthält die Reifentemperaturen einschließlich Reserverad. (temperatureRearRight)",
+      "max":382.0,
+      "min":-76.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Radio_FrequencyRanges.FM":{
+      "description":"Radio_FrequencyRanges Gibt die f  r AM und FM zu verwendenden Bandannahmen an. (FM)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "oilTemperature":{
+      "description":"oilTemperature Enthält die Öltemperatur mit variabler Einheit wie im Kombiinstrument angezeigt. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (temperature)",
+      "max":380.0,
+      "min":-60.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "Radio_Text.Album":{
+      "description":"Radio_Text Radio Text Informationen, soweit verfügbar.Nicht verfügbare Werte sind mit \u0026quot;no data\u0026quot; gekennzeichnet.Text: Radio Text, welcher vom aktuellen Sender gesendet wird.Artist: Künstler des gerade gespielten Stücks.Album: Album des gerade gespielten Stücks.Title: Titel des gerade gespielten Stücks.Image: Bildinformationen, soweit verfügbar. Z.B. DAB Bilder oder Cover. Wenn dieses Bild nicht verfügbar ist, aber ImageAvailable wahr ist, wird wahrscheinlich gerade ein Bild geladen.ImageAvailable: Wird gesetzt, wenn ein Bild verfügbar ist. Solange das Bild selbst nicht gesetzt ist, wird dieses noch geladen. (Album)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "reverseGear.engaged":{
+      "description":"reverseGear Enthält die verfügbare Info über den Rückwärtsgang. TRUE:.. Rückwärtsgang eingelegt FALSE:.. Rückwärstgang nicht eingelegt (engaged)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "clutch":{
+      "description":"clutch Zustand der Kupplung (eingekuppelt/ausgekuppelt). Bei Automatikgetrieben \u0026quot;noData\u0026quot;. (clutch)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "oilLevel.showBargraph":{
+      "description":"oilLevel Enthält die Ölstandsinformationen. \u0026quot;noData\u0026quot; falls ungültig oder nicht verbaut. (showBargraph)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "tyreStates.stateRearRight":{
+      "description":"tyreStates Enthält die Reifenzustände je Rad inkl. Ersatzrad, den Verbundzustand und das RDK-System. (stateRearRight)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyreStates.stateRearLeft":{
+      "description":"tyreStates Enthält die Reifenzustände je Rad inkl. Ersatzrad, den Verbundzustand und das RDK-System. (stateRearLeft)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "currentOutputPower":{
+      "description":"currentOutputPower Enthält die Momentanleistung in kW. (currentOutputPower)",
+      "max":1227.0,
+      "min":0.0,
+      "resolution":0.1,
+      "type":2,
+      "unit":"kW"
+   },
+   "seatHeater_zone4.state":{
+      "description":"seatHeater_zone4 Enthält die Heizstufe der Sitzheizung hinten rechts und den Zustand. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_Text.Artist":{
+      "description":"Radio_Text Radio Text Informationen, soweit verfügbar.Nicht verfügbare Werte sind mit \u0026quot;no data\u0026quot; gekennzeichnet.Text: Radio Text, welcher vom aktuellen Sender gesendet wird.Artist: Künstler des gerade gespielten Stücks.Album: Album des gerade gespielten Stücks.Title: Titel des gerade gespielten Stücks.Image: Bildinformationen, soweit verfügbar. Z.B. DAB Bilder oder Cover. Wenn dieses Bild nicht verfügbar ist, aber ImageAvailable wahr ist, wird wahrscheinlich gerade ein Bild geladen.ImageAvailable: Wird gesetzt, wenn ein Bild verfügbar ist. Solange das Bild selbst nicht gesetzt ist, wird dieses noch geladen. (Artist)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Nav_GuidanceDestination.City":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (City)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "vehicleDate.month":{
+      "description":"vehicleDate Enthält das Fahrzeugdatum. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (month)",
+      "max":12.0,
+      "min":1.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"mon"
+   },
+   "suspensionStates.height_frontRight":{
+      "description":"suspensionStates Enthält den Zustand/Höhenwerte der Fahrzeugachsen sofern  verfügbar. Andernfalls liefert das Objekt nur \u0026quot;noData\u0026quot;. (height_frontRight)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"percent"
+   },
+   "cycleConsumptionSecondary":{
+      "description":"cycleConsumptionSecondary Enthält den Durchchnittsverbrauch des Sekundärantriebes seit Tanken mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (value)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "tyreRequiredPressures.pressureRearRight":{
+      "description":"tyreRequiredPressures Enthält die Soll-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureRearRight)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "serviceInspection.time":{
+      "description":"serviceInspection Enthält die Daten für den Inspektionsservice (\u0026quot;Durchsicht\u0026quot;). (time)",
+      "max":2047.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"d"
+   },
+   "Media_PlayMode.MixMode":{
+      "description":"Media_PlayMode Gibt den aktuellen Abpspielmodus, z.B. repeat.Mode: Wiederholungsmodus f  r die Wiedergabe.MixMode: Mix Modus f  r die Wiedergabe.PMLTMode: Play more like this / Mehr wie dieses Spielen Modus f  r die Wiedergabe. (MixMode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "driveMode.activeProfile":{
+      "description":"driveMode Enthält das aktuelle Fahrprogramm, wie mittels Fahrprofilauswahl bzw. Fahrerlebnisschalter eingestellt. (activeProfile)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "MediaBrowser_FollowMode":{
+      "description":"MediaBrowser_FollowMode Wenn der Follow Mode aktiv ist, wird der aktuelle Ordner immer auf den gerade gespielten gesetzt. (FollowMode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "Nav_GuidanceDestination.Housenumber":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Housenumber)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "serviceOil.time":{
+      "description":"serviceOil Enthält die Daten für den Ölservice. (time)",
+      "max":2047.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"d"
+   },
+   "engineTypes.primaryEngine":{
+      "description":"engineTypes Enthält die Antriebsinformation (Motortyp) des Fahrzeugs. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (primaryEngine)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "seatVentilation_zone4.state":{
+      "description":"seatVentilation_zone4 Enthält den Wert der Sitzlüftung hinten rechts. Enthält \u0026quot;noData\u0026quot; falls nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_Tuner.EnsembleId":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (EnsembleId)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "WebRadio_CurrentStation.Identifier":{
+      "description":"WebRadio_CurrentStation Aktuell abgespielter Web-Radiosender oder Podcast-Episode. Leer wenn Webradio nicht verwendet wird. (Identifier)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "WebRadio_CurrentStation.storedOnHMIPreset":{
+      "description":"WebRadio_CurrentStation Aktuell abgespielter Web-Radiosender oder Podcast-Episode. Leer wenn Webradio nicht verwendet wird. (storedOnHMIPreset)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "ambienceLight_profiles.profile4_brightness":{
+      "description":"ambienceLight_profiles Enthält Profilinformationen des Ambientelichts (Schmucklicht). (profile4_brightness)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"percent"
+   },
+   "dayMilage":{
+      "description":"dayMilage Enthält die Wegstrecke in m seit dem letzten Hochfahren des EXLAP-Servers. (value)",
+      "max":2.14748365E9,
+      "min":0.0,
+      "resolution":100.0,
+      "type":2,
+      "unit":"m"
+   },
+   "oilLevel.warnings":{
+      "description":"oilLevel Enthält die Ölstandsinformationen. \u0026quot;noData\u0026quot; falls ungültig oder nicht verbaut. (warnings)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyreRequiredPressures.pressureFrontRight":{
+      "description":"tyreRequiredPressures Enthält die Soll-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureFrontRight)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Sound_Volume.EntertainmentMuted":{
+      "description":"Sound_Volume Volume enthält die aktuelle Lautstärke in Schritten. Die möglichen Schritte werden in Sound_VolumeSetup beschrieben. Source enthält die aktuelle Quelle. Sollte die Quelle \u0026quot;Entertainment\u0026quot; stummgeschaltet sein, ist das entsprechende Feld gesetzt.Veränderung über Sound_IncreaseVolume/Sound_DescreaseVolume möglich. (EntertainmentMuted)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "seatHeater_zone3.state":{
+      "description":"seatHeater_zone3 Enthält die Heizstufe der Sitzheizung hinten links und den Zustand. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Media_PlayerState.TrackPosition":{
+      "description":"Media_PlayerState Beinhaltet- die aktuelle Position in ms- den Wiedergabestatus- die globale Entry ID- den Typ des aktuellen abgespielten Eintrags (TrackPosition)",
+      "max":3.4028235E38,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"ms"
+   },
+   "lightState_front.highBeamHeadlight":{
+      "description":"lightState_front Enthält den Zustand der Frontbeleuchtung ohne Blinklicht. TRUE: EIN FALSE: AUS (highBeamHeadlight)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "serviceOil.distance":{
+      "description":"serviceOil Enthält die Daten für den Ölservice. (distance)",
+      "max":204700.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"km"
+   },
+   "doorState.hoodState":{
+      "description":"doorState Enthält den Türen- und Verriegelungszustand des Fahrzeugs. (hoodState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "consumptionShortTermGeneral.time":{
+      "description":"consumptionShortTermGeneral Enthält die allgemeinen Daten des Kurzzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. Die Einheiten sind variabel und werden zusammen mit den Skalarwerten geliefert. (time)",
+      "max":3.4028235E38,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"min"
+   },
+   "ambienceLight_profiles.profile5_brightness":{
+      "description":"ambienceLight_profiles Enthält Profilinformationen des Ambientelichts (Schmucklicht). (profile5_brightness)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"percent"
+   },
+   "Nav_GuidanceDestination.State":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (State)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "cycleConsumptionPrimary.state":{
+      "description":"cycleConsumptionPrimary Enthält den Durchchnittsverbrauch des Primärantriebes seit Tanken mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "currentConsumptionSecondary.state":{
+      "description":"currentConsumptionSecondary Enthält den Momentanverbrauch des Sekundärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "SPI_ConnectedDevice.SPI_Type":{
+      "description":"SPI_ConnectedDevice SPI_Smart Phone Integration  Enth �lt die Informationen   ber ein per \u0026quot;SPI\u0026quot; verbundenes \u0026quot;Smart Phone\u0026quot;, dessen Namen und den Verbindungstyp. SPI_avaialble: FALSE: SPI-Schnittstelle ist nicht verbaut; TRUE: SPI-Schnittstelle ist verbaut. AudioPlayback: TRUE: Das SPI-Audiosignal wird wiedergegeben; FALSE: Das SPI-Audiosignal wird nicht wiedergegeben. (SPI_Type)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "coastingIsActive":{
+      "description":"coastingIsActive Enthält die Information über den Zustand des Freilaufs.Wertebereich: bool  FALSE:\u0026quot;Freilauf\u0026quot; ist nicht aktiv, TRUE: \u0026quot;Freilauf\u0026quot; ist aktiv. Hinweis. Die Zustandinformation bezieht sich nicht auf den  Schubbetrieb sondern nur auf den Freilauf! (coastingIsActive)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "serviceInspection.distance":{
+      "description":"serviceInspection Enthält die Daten für den Inspektionsservice (\u0026quot;Durchsicht\u0026quot;). (distance)",
+      "max":204700.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"km"
+   },
+   "tyreRequiredPressures.pressureFrontLeft":{
+      "description":"tyreRequiredPressures Enthält die Soll-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureFrontLeft)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "tankLevelPrimary":{
+      "description":"tankLevelPrimary Enthält den Tankfüllstand des primären Antriebs und eine Zustandsinformation. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (level)",
+      "max":1.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "recuperationLevel.recupLevel":{
+      "description":"recuperationLevel Enthält die Rekuperationsstufe. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (recupLevel)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "outsideTemperature.state":{
+      "description":"outsideTemperature Enthält die Außentemperatur wie vom Kombiinstrument angezeigt. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. Für Gültigkeit der Anzeige muss der Parameter \u0026quot;state\u0026quot; zusätzlich ausgewertet werden. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "doorState.numberOfDoors":{
+      "description":"doorState Enthält den Türen- und Verriegelungszustand des Fahrzeugs. (numberOfDoors)",
+      "max":5.0,
+      "min":1.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Radio_Tuner.FMLinkingActive":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (FMLinkingActive)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "tyrePressures.pressureUnit":{
+      "description":"tyrePressures Enthält die Ist-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "ambienceLight_profiles.profile3_brightness":{
+      "description":"ambienceLight_profiles Enthält Profilinformationen des Ambientelichts (Schmucklicht). (profile3_brightness)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"percent"
+   },
+   "ambienceLight_profiles.profile6_brightness":{
+      "description":"ambienceLight_profiles Enthält Profilinformationen des Ambientelichts (Schmucklicht). (profile6_brightness)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"percent"
+   },
+   "Radio_Tuner.satChannel":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (satChannel)",
+      "max":999.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "System_Language":{
+      "description":"System_Language Aktuelle Sprache des HMIs.Sprachidentifier besteht aus dem ISO639-2 Sprachcode and (optional) aus dem ISO3166-2 Ländercode. Beispiele: de_DE, en_US, en_UK (Language)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "seatHeater_zone4.level":{
+      "description":"seatHeater_zone4 Enthält die Heizstufe der Sitzheizung hinten rechts und den Zustand. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (level)",
+      "max":6.0,
+      "min":-6.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Nav_GuidanceDestination.Altitude":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Altitude)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2,
+      "unit":"m"
+   },
+   "longTermConsumptionPrimary.state":{
+      "description":"longTermConsumptionPrimary Enthält den MFA-Langzeitdurchchnittsverbrauch des Primärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Nav_GuidanceDestination.Description":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Description)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "hevacConfiguration.numerOfZones":{
+      "description":"hevacConfiguration Enthält Verbauinformationen des Fahrzeugs.HEVAC: Heating, Ventilation, Air ConditioningRHD: Rechtslenkerfahrzeug (numerOfZones)",
+      "max":6.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Media_Track.Title":{
+      "description":"Media_Track Informationen über den gerade abspielenden Track oder \u0026quot;no data\u0026quot; falls aktuell kein Track abgespielt wird.Title: Titel des Tracks.Artist: Künsteler des Tracks.Album: Album des Tracks.Cover: Cover des TracksLength: Länge des Tracks in Millisekunden. Sollte die Länge (Length) nicht berechenbar sein (z.B. durch VBR) wird diese auf \u0026quot;no data\u0026quot; gesetzt.Number: Position in einem Set. Z.B. die Track Nummer in einem Album oder auf einer Audio CD. (Title)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "fuelLevelState.levelSensorState":{
+      "description":"fuelLevelState Enthält des Fehlerzustand des Tanks. TRUE: Tankgeberfehler; FALSE: kein Tankgeberfehler. Der Empfänger muss den Ereignscharacter dieses Objektes beachten! \u0026quot;noData\u0026quot; falls nicht verfügbar. (levelSensorState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "Media_PlayMode":{
+      "description":"Media_PlayMode Gibt den aktuellen Abpspielmodus, z.B. repeat.Mode: Wiederholungsmodus f  r die Wiedergabe.MixMode: Mix Modus f  r die Wiedergabe.PMLTMode: Play more like this / Mehr wie dieses Spielen Modus f  r die Wiedergabe. (Mode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "unitTemperature.temperatureUnit":{
+      "description":"unitTemperature Enthält die Temperatureinheit des Fahrzeugs. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (temperatureUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "wheelAngle":{
+      "description":"wheelAngle Enthält den Lenkwinkel in °. Ein Vollkreis \u003d 360°. (wheelAngle)",
+      "max":800.0,
+      "min":-800.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"°"
+   },
+   "WebRadio_CurrentStation.Name":{
+      "description":"WebRadio_CurrentStation Aktuell abgespielter Web-Radiosender oder Podcast-Episode. Leer wenn Webradio nicht verwendet wird. (Name)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "oilTemperature.state":{
+      "description":"oilTemperature Enthält die Öltemperatur mit variabler Einheit wie im Kombiinstrument angezeigt. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Nav_CurrentPosition.Country":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Country)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_FrequencyRanges.AM":{
+      "description":"Radio_FrequencyRanges Gibt die f  r AM und FM zu verwendenden Bandannahmen an. (AM)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "Nav_Heading":{
+      "description":"Nav_Heading Aktuelle Fahrtrichtung in mathematisch positiver Angabe (West \u003d 90°, East \u003d 270°). (Heading)",
+      "max":360.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"degree"
+   },
+   "Media_PlayerState.EntryID":{
+      "description":"Media_PlayerState Beinhaltet- die aktuelle Position in ms- den Wiedergabestatus- die globale Entry ID- den Typ des aktuellen abgespielten Eintrags (EntryID)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Sound_BalanceFaderSetup.FaderFront":{
+      "description":"Sound_BalanceFaderSetup Bereiche f  r Fader und Balance Einstellungen. (FaderFront)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "Nav_CurrentPosition.Latitude":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Latitude)",
+      "max":90.0,
+      "min":-90.0,
+      "resolution":1.0E-6,
+      "type":2,
+      "unit":"degree"
+   },
+   "doorState.fondDoorRightState":{
+      "description":"doorState Enthält den Türen- und Verriegelungszustand des Fahrzeugs. (fondDoorRightState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_Tuner.RDS":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (RDS)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "longTermConsumptionPrimary":{
+      "description":"longTermConsumptionPrimary Enthält den MFA-Langzeitdurchchnittsverbrauch des Primärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (value)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "tyrePressures.pressureFrontRight":{
+      "description":"tyrePressures Enthält die Ist-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureFrontRight)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "powermeter":{
+      "description":"powermeter Enthält Anzeigedaten für die Boostanzeige in PHEV und BEV. (powermeter)",
+      "max":4080.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "suspensionStates.height_rearRight":{
+      "description":"suspensionStates Enthält den Zustand/Höhenwerte der Fahrzeugachsen sofern  verfügbar. Andernfalls liefert das Objekt nur \u0026quot;noData\u0026quot;. (height_rearRight)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"percent"
+   },
+   "Nav_GuidanceDestination.Street":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Street)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "seatHeater_zone1.level":{
+      "description":"seatHeater_zone1 Enthält die Heizstufe der Sitzheizung vorn links und den Zustand. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (level)",
+      "max":6.0,
+      "min":-6.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "seatVentilation_zone3.state":{
+      "description":"seatVentilation_zone3 Enthält den Wert der Sitzlüftung hinten links. Enthält \u0026quot;noData\u0026quot; falls nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyreStates.system":{
+      "description":"tyreStates Enthält die Reifenzustände je Rad inkl. Ersatzrad, den Verbundzustand und das RDK-System. (system)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "vehicleTime.minute":{
+      "description":"vehicleTime Enthält die Fahrzeugzeit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. Diese Zeit ist immer eine lokale Zeit gemäß EXLAP-Spezifikation. (minute)",
+      "max":59.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"min"
+   },
+   "fuelWarningPrimaryTank":{
+      "description":"fuelWarningPrimaryTank Enthält den Warnzustand des Primärtanks. \u0026quot;noData\u0026quot; falls nicht verfügbar. TRUE: Warnung aktiv; FALSE: Warnung nicht aktiv. (warningPrimaryTank)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "Radio_Tuner.isBuffering":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (isBuffering)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "tyreTemperatures.temperatureFrontRight":{
+      "description":"tyreTemperatures Enthält die Reifentemperaturen einschließlich Reserverad. (temperatureFrontRight)",
+      "max":382.0,
+      "min":-76.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "tyreTemperatures.temperatureUnit":{
+      "description":"tyreTemperatures Enthält die Reifentemperaturen einschließlich Reserverad. (temperatureUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "WebRadio_CurrentStation.isPodcast":{
+      "description":"WebRadio_CurrentStation Aktuell abgespielter Web-Radiosender oder Podcast-Episode. Leer wenn Webradio nicht verwendet wird. (isPodcast)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "doorState.driverDoorState":{
+      "description":"doorState Enthält den Türen- und Verriegelungszustand des Fahrzeugs. (driverDoorState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "serviceInspection.timeState":{
+      "description":"serviceInspection Enthält die Daten für den Inspektionsservice (\u0026quot;Durchsicht\u0026quot;). (timeState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_TA.StationName":{
+      "description":"Radio_TA Zeigt an, ob zum aktuellen Zeitpunkt eine Verkehrsmeldung durchgegeben wird und wo Ansagen verf  gbar sind. \u0026quot;no data\u0026quot; falls keine Ansagen verf  gbar sind.Active: Gesetzt, wenn gerade eine Verkehrsdurchsage aktiv ist. Die anderen Werte sind nur in diesem Fall gef  llt.StationName: Name des Senders, welche gerade die Verkehrsdurchsage sendet, wenn verf  gbar.Frequency: Frequenz des Senders, welcher die Verkehrsdurchsage sendet. Wird genutzt, wenn kein Sendername gesetzt ist. (StationName)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "unitPressure.pressureUnit":{
+      "description":"unitPressure Enthält die Druckeinheit des Fahrzeugs. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (pressureUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Nav_CurrentPosition.Longitude":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Longitude)",
+      "max":180.0,
+      "min":-180.0,
+      "resolution":1.0E-6,
+      "type":2,
+      "unit":"degree"
+   },
+   "Radio_Tuner.TP":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (TP)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "accIsActive":{
+      "description":"accIsActive ACC-Zustand an (true) oder aus (false). \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (accIsActive)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "blinkingState":{
+      "description":"blinkingState Blinkleuchtenzustand wie im Kombiinstrument angezeigt. (blinkingState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "currentConsumptionPrimary.state":{
+      "description":"currentConsumptionPrimary Enthält den Momentanverbrauch des Primärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "clampState.clamp_15":{
+      "description":"clampState Enthält den Klemmenzustand (z.B. Schlüsselkontakt, Zündung...) (clamp_15)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "tyrePressures.pressureFrontLeft":{
+      "description":"tyrePressures Enthält die Ist-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureFrontLeft)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "System_DayNight.State":{
+      "description":"System_DayNight Zeigt an, ob das HMI der HU gerade im Tag oder Nacht Modus ist. (State)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Sound_BalanceFaderSetup.FaderRear":{
+      "description":"Sound_BalanceFaderSetup Bereiche f  r Fader und Balance Einstellungen. (FaderRear)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "SPI_ConnectedDevice.SPI_available":{
+      "description":"SPI_ConnectedDevice SPI_Smart Phone Integration  Enth �lt die Informationen   ber ein per \u0026quot;SPI\u0026quot; verbundenes \u0026quot;Smart Phone\u0026quot;, dessen Namen und den Verbindungstyp. SPI_avaialble: FALSE: SPI-Schnittstelle ist nicht verbaut; TRUE: SPI-Schnittstelle ist verbaut. AudioPlayback: TRUE: Das SPI-Audiosignal wird wiedergegeben; FALSE: Das SPI-Audiosignal wird nicht wiedergegeben. (SPI_available)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "Radio_Tuner.HDStation":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (HDStation)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "Radio_Tuner.ShortName":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (ShortName)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "Sound_BalanceFader":{
+      "description":"Sound_BalanceFader Fader Position zur Positionierung des virtuellen Ton-Mittelpunkts im Fahrzeug. (Balance)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "consumptionLongTermGeneral.distanceValue":{
+      "description":"consumptionLongTermGeneral Enthält die allgemeinen Daten des Langzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (distanceValue)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "consumptionLongTermGeneral.distanceUnit":{
+      "description":"consumptionLongTermGeneral Enthält die allgemeinen Daten des Langzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (distanceUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "vehicleIdenticationNumber.VIN":{
+      "description":"vehicleIdenticationNumber Enthält die Fahrgestellnummer als String. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (VIN)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "vehicleSpeed.state":{
+      "description":"vehicleSpeed Enthält die vom Kombiinstrument angezeigte Fahrzeuggeschwindigkeit. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Sound_BalanceFaderSetup.BalanceRight":{
+      "description":"Sound_BalanceFaderSetup Bereiche f  r Fader und Balance Einstellungen. (BalanceRight)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "acceleratorPosition":{
+      "description":"acceleratorPosition Enthält die Fahrpedalstellung in Prozent. 1\u003d100% entsprechen dem voll durchgetretenen Pedal. (acceleratorPosition)",
+      "max":1.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "yawRate":{
+      "description":"yawRate Enthält die Gierrate (Winkelgeschw.) in °/s. (yawRate)",
+      "max":163.82,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"°/s"
+   },
+   "Car_ambienceLightColour.ColourSRGB":{
+      "description":"Car_ambienceLightColour enthält die Ambientenlichtfarbe des Infotainment HMI des Fahrzeugs. Kann durch den Klienten benutzt werden, um sich auf die Farbe/ Farbsatz des Fahrzeugs anzupassen.Nur lesbar. (ColourSRGB)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "batteryVoltage":{
+      "description":"batteryVoltage Enthält die Spannung der 12V-Batterie. Bitte nicht mit der Spannung der Traktionsbatterie der E-/Hybrid-Fahrzeuge zu verwechseln. (voltage)",
+      "max":17.7,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"V"
+   },
+   "tankLevelSecondary":{
+      "description":"tankLevelSecondary Enthält den Tankfüllstand des sekundären Antriebs. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (level)",
+      "max":1.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "doorState.coDriverDoorState":{
+      "description":"doorState Enthält den Türen- und Verriegelungszustand des Fahrzeugs. (coDriverDoorState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyrePressures.pressureRearRight":{
+      "description":"tyrePressures Enthält die Ist-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureRearRight)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Nav_GuidanceRemaining.RTT":{
+      "description":"Nav_GuidanceRemaining Angabe der noch zu fahrenden Zeit (RTT) und Strecke (DTD). \u0026quot;no data\u0026quot; wenn keine Route gesetzt ist. (RTT)",
+      "max":2000000.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"s"
+   },
+   "hevacConfiguration.isRearTempAdjustable":{
+      "description":"hevacConfiguration Enthält Verbauinformationen des Fahrzeugs.HEVAC: Heating, Ventilation, Air ConditioningRHD: Rechtslenkerfahrzeug (isRearTempAdjustable)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "Radio_Tuner.PICode":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (PICode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "Media_Track.Artist":{
+      "description":"Media_Track Informationen über den gerade abspielenden Track oder \u0026quot;no data\u0026quot; falls aktuell kein Track abgespielt wird.Title: Titel des Tracks.Artist: Künsteler des Tracks.Album: Album des Tracks.Cover: Cover des TracksLength: Länge des Tracks in Millisekunden. Sollte die Länge (Length) nicht berechenbar sein (z.B. durch VBR) wird diese auf \u0026quot;no data\u0026quot; gesetzt.Number: Position in einem Set. Z.B. die Track Nummer in einem Album oder auf einer Audio CD. (Artist)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "seatHeater_zone2.level":{
+      "description":"seatHeater_zone2 Enthält die Heizstufe der Sitzheizung vorn rechts und den Zustand. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (level)",
+      "max":6.0,
+      "min":-6.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Radio_Tuner.availableOnWeb":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (availableOnWeb)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "gearboxOilTemperature":{
+      "description":"gearboxOilTemperature Enthält die Getriebetemperatur in °C. Datenobjeckt ist nur bei Verbau eines Getriebesteuergerätes vorhanden. Der Empfänger ist für evtl. notwendige Umrechnung in °F verantwortlich. (gearboxOilTemp)",
+      "max":196.0,
+      "min":-58.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"°C"
+   },
+   "consumptionLongTermGeneral.distanceValueState":{
+      "description":"consumptionLongTermGeneral Enthält die allgemeinen Daten des Langzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (distanceValueState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "longTermConsumptionSecondary.state":{
+      "description":"longTermConsumptionSecondary Enthält den MFA-Langzeitdurchchnittsverbrauch des Sekundärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "ambienceLight_installation.al_statePrivacy_available":{
+      "description":"ambienceLight_installation Enthält Verbauinformationen des Ambientelichts/Schmucklichts. (al_statePrivacy_available)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "vehicleDate.year":{
+      "description":"vehicleDate Enthält das Fahrzeugdatum. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (year)",
+      "max":2255.0,
+      "min":2000.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"a"
+   },
+   "Media_Track.Number":{
+      "description":"Media_Track Informationen über den gerade abspielenden Track oder \u0026quot;no data\u0026quot; falls aktuell kein Track abgespielt wird.Title: Titel des Tracks.Artist: Künsteler des Tracks.Album: Album des Tracks.Cover: Cover des TracksLength: Länge des Tracks in Millisekunden. Sollte die Länge (Length) nicht berechenbar sein (z.B. durch VBR) wird diese auf \u0026quot;no data\u0026quot; gesetzt.Number: Position in einem Set. Z.B. die Track Nummer in einem Album oder auf einer Audio CD. (Number)",
+      "max":4.2949673E9,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"Track"
+   },
+   "currentConsumptionSecondary":{
+      "description":"currentConsumptionSecondary Enthält den Momentanverbrauch des Sekundärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (value)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "totalDistance.distanceValue":{
+      "description":"totalDistance Enthält die Gesamtwegstrecke des Fahrzeugs, wie im Kombiinstrument angezeigt. Die Streckeneinheit ist variabel.\u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (distanceValue)",
+      "max":3.4028235E38,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "seatHeater_zone1.state":{
+      "description":"seatHeater_zone1 Enthält die Heizstufe der Sitzheizung vorn links und den Zustand. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "hevacFanLevelRear.levelRegulated_left":{
+      "description":"hevacFanLevelRear Enthält die Lüfterstufe hinten, links/rechts. Abhängig vom Verbau können eine oder beide Zonen \u0026quot;noData\u0026quot; liefern.isAutomatic \u003d\u003d true, wenn die Luftmenge (Lüfter) im Automatikbetrieb ist. (levelRegulated_left)",
+      "max":12.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "seatVentilation_zone4.level":{
+      "description":"seatVentilation_zone4 Enthält den Wert der Sitzlüftung hinten rechts. Enthält \u0026quot;noData\u0026quot; falls nicht verfügbar. (level)",
+      "max":6.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "MediaBrowser_ListState.ListSize":{
+      "description":"MediaBrowser_ListState Status der aktuellen Media Browser Liste.PageSize: Maximale Anzahl an Elementen, die in einem Aufruf verf  gbar sind.ListSize: Aktuelle Gesamtgr � �e der ListeModCount:  �nderungsz �hler. Jedes mal, wenn eine  �nderung an einer Bereits abgerufenen Seite durchgef  hrt wird, wird dieser Counter erh �ht.State: Status der Liste. (ListSize)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "ambienceLight_brightness":{
+      "description":"ambienceLight_brightness Enthält die Helligkeitseinstellung für das Ambientelicht (Schmucklicht).Der Member \u0026quot;state\u0026quot; gibt den Einschaltezustand wieder; false\u003dausgeschaltet, true\u003deingeschaltet. (brightness)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "maxChargingAirPressure":{
+      "description":"maxChargingAirPressure Enthält den maximalen Ladedruck in Bar. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (maxChargingAirPressure)",
+      "max":6.3,
+      "min":0.0,
+      "resolution":0.1,
+      "type":2,
+      "unit":"bar"
+   },
+   "coolantTemperature.state":{
+      "description":"coolantTemperature Enthält die Kühlmitteltemperatur mit variabler Einheit wie im Kombiinstrument angezeigt. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "oilLevel.refillVolume":{
+      "description":"oilLevel Enthält die Ölstandsinformationen. \u0026quot;noData\u0026quot; falls ungültig oder nicht verbaut. (refillVolume)",
+      "max":3.4028235E38,
+      "min":0.0,
+      "resolution":0.001,
+      "type":2
+   },
+   "ambienceLight_profiles.profile8_brightness":{
+      "description":"ambienceLight_profiles Enthält Profilinformationen des Ambientelichts (Schmucklicht). (profile8_brightness)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"percent"
+   },
+   "unitTimeFormat.clockFormat":{
+      "description":"unitTimeFormat Enthält das Uhrzeitformat des Fahrzeugs. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (clockFormat)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "shortTermConsumptionSecondary":{
+      "description":"shortTermConsumptionSecondary Enthält den MFA-Kurzzeitdurchchnittsverbrauch (\u0026quot;ab Start\u0026quot;) des Sekundärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (value)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "ambienceLight_profiles.profile1_brightness":{
+      "description":"ambienceLight_profiles Enthält Profilinformationen des Ambientelichts (Schmucklicht). (profile1_brightness)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"percent"
+   },
+   "Media_Track.Length":{
+      "description":"Media_Track Informationen über den gerade abspielenden Track oder \u0026quot;no data\u0026quot; falls aktuell kein Track abgespielt wird.Title: Titel des Tracks.Artist: Künsteler des Tracks.Album: Album des Tracks.Cover: Cover des TracksLength: Länge des Tracks in Millisekunden. Sollte die Länge (Length) nicht berechenbar sein (z.B. durch VBR) wird diese auf \u0026quot;no data\u0026quot; gesetzt.Number: Position in einem Set. Z.B. die Track Nummer in einem Album oder auf einer Audio CD. (Length)",
+      "max":2.14748365E9,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"ms"
+   },
+   "seatHeater_zone3.level":{
+      "description":"seatHeater_zone3 Enthält die Heizstufe der Sitzheizung hinten links und den Zustand. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (level)",
+      "max":6.0,
+      "min":-6.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "tyreRequiredPressures.pressureUnit":{
+      "description":"tyreRequiredPressures Enthält die Soll-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Sound_Volume.Source":{
+      "description":"Sound_Volume Volume enthält die aktuelle Lautstärke in Schritten. Die möglichen Schritte werden in Sound_VolumeSetup beschrieben. Source enthält die aktuelle Quelle. Sollte die Quelle \u0026quot;Entertainment\u0026quot; stummgeschaltet sein, ist das entsprechende Feld gesetzt.Veränderung über Sound_IncreaseVolume/Sound_DescreaseVolume möglich. (Source)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyreTemperatures.temperatureRearLeft":{
+      "description":"tyreTemperatures Enthält die Reifentemperaturen einschließlich Reserverad. (temperatureRearLeft)",
+      "max":382.0,
+      "min":-76.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "ambienceLight_profiles.profile2_brightness":{
+      "description":"ambienceLight_profiles Enthält Profilinformationen des Ambientelichts (Schmucklicht). (profile2_brightness)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"percent"
+   },
+   "consumptionShortTermGeneral.distanceValueState":{
+      "description":"consumptionShortTermGeneral Enthält die allgemeinen Daten des Kurzzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. Die Einheiten sind variabel und werden zusammen mit den Skalarwerten geliefert. (distanceValueState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "shortTermConsumptionPrimary":{
+      "description":"shortTermConsumptionPrimary Enthält den MFA-Kurzzeitdurchchnittsverbrauch (\u0026quot;ab Start\u0026quot;) des Primärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (value)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2,
+      "unit":"l/100km"
+   },
+   "hevOperationMode":{
+      "description":"hevOperationMode Enthält den Betriebsmode der VKM eines HEV. \u0026quot;noData\u0026quot; falls nicht verfügbar. VKM:.. Vebrennungskarftmaschine HEV:.. Hybrid Electric Vehicle (mode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_TA.Active":{
+      "description":"Radio_TA Zeigt an, ob zum aktuellen Zeitpunkt eine Verkehrsmeldung durchgegeben wird und wo Ansagen verf  gbar sind. \u0026quot;no data\u0026quot; falls keine Ansagen verf  gbar sind.Active: Gesetzt, wenn gerade eine Verkehrsdurchsage aktiv ist. Die anderen Werte sind nur in diesem Fall gef  llt.StationName: Name des Senders, welche gerade die Verkehrsdurchsage sendet, wenn verf  gbar.Frequency: Frequenz des Senders, welcher die Verkehrsdurchsage sendet. Wird genutzt, wenn kein Sendername gesetzt ist. (Active)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "Nav_Altitude":{
+      "description":"Nav_Altitude Aktuelle Höhe über Normalnull in Metern. (Altitude)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2,
+      "unit":"m"
+   },
+   "tankLevelPrimary.state":{
+      "description":"tankLevelPrimary Enthält den Tankfüllstand des primären Antriebs und eine Zustandsinformation. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "suspensionStates.height_rearLeft":{
+      "description":"suspensionStates Enthält den Zustand/Höhenwerte der Fahrzeugachsen sofern  verfügbar. Andernfalls liefert das Objekt nur \u0026quot;noData\u0026quot;. (height_rearLeft)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"percent"
+   },
+   "cycleConsumptionSecondary.state":{
+      "description":"cycleConsumptionSecondary Enthält den Durchchnittsverbrauch des Sekundärantriebes seit Tanken mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "consumptionLongTermGeneral.speedValue":{
+      "description":"consumptionLongTermGeneral Enthält die allgemeinen Daten des Langzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (speedValue)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "Radio_Tuner.Band_Type":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (Band_Type)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "absChargingAirPressure":{
+      "description":"absChargingAirPressure Enthält den absoluten Ladedruck in Bar. (absChargingAirPressure)",
+      "max":5.1,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"bar"
+   },
+   "consumptionShortTermGeneral.speedUnit":{
+      "description":"consumptionShortTermGeneral Enthält die allgemeinen Daten des Kurzzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. Die Einheiten sind variabel und werden zusammen mit den Skalarwerten geliefert. (speedUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "combustionEngineDisplacement":{
+      "description":"combustionEngineDisplacement Enthält den Hubraum der Verbrennungskraftmaschine (VKM). Sobald ein gültiger Wert übertragen wurde, ändert er sich für die Dauer der EXLAP-Verbindung nicht. (displacement)",
+      "max":12.7,
+      "min":0.0,
+      "resolution":0.1,
+      "type":2,
+      "unit":"l"
+   },
+   "tyreStates.compoundState":{
+      "description":"tyreStates Enthält die Reifenzustände je Rad inkl. Ersatzrad, den Verbundzustand und das RDK-System. (compoundState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_Tuner.Cover":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (Cover)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "System_RestrictionMode":{
+      "description":"System_RestrictionMode Beschreibung, welcher Bedienmodus im HMI gew �hlt ist.Chauffeur: Volle Kontrolle durch SAI.Normal: Nachfrage beim Fahrer bei fahrtentscheidenden Eingaben.Childlock: Nur noch lesender Zugriff. (Mode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "parkingBrake.engaged":{
+      "description":"parkingBrake Enthält den Zustand der Feststellbremse (sg. \u0026quot;Handbremse\u0026quot;) sofern verfügbar. (engaged)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "driverIsBraking":{
+      "description":"driverIsBraking Enthält den Bremszustand ja/nein. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (driverIsBraking)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "seatVentilation_zone3.level":{
+      "description":"seatVentilation_zone3 Enthält den Wert der Sitzlüftung hinten links. Enthält \u0026quot;noData\u0026quot; falls nicht verfügbar. (level)",
+      "max":6.0,
+      "min":-6.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "maxOutputPower":{
+      "description":"maxOutputPower Enhält die Nennleistung des Fahrzeugs in kW. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (maxOutputPower)",
+      "max":511.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"kW"
+   },
+   "Nav_CurrentPosition.State":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (State)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_Text.Title":{
+      "description":"Radio_Text Radio Text Informationen, soweit verfügbar.Nicht verfügbare Werte sind mit \u0026quot;no data\u0026quot; gekennzeichnet.Text: Radio Text, welcher vom aktuellen Sender gesendet wird.Artist: Künstler des gerade gespielten Stücks.Album: Album des gerade gespielten Stücks.Title: Titel des gerade gespielten Stücks.Image: Bildinformationen, soweit verfügbar. Z.B. DAB Bilder oder Cover. Wenn dieses Bild nicht verfügbar ist, aber ImageAvailable wahr ist, wird wahrscheinlich gerade ein Bild geladen.ImageAvailable: Wird gesetzt, wenn ein Bild verfügbar ist. Solange das Bild selbst nicht gesetzt ist, wird dieses noch geladen. (Title)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_Tuner.ExtendedCountryCode":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (ExtendedCountryCode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "consumptionLongTermGeneral.speedUnit":{
+      "description":"consumptionLongTermGeneral Enthält die allgemeinen Daten des Langzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (speedUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "consumptionLongTermGeneral.time":{
+      "description":"consumptionLongTermGeneral Enthält die allgemeinen Daten des Langzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (time)",
+      "max":3.4028235E38,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"min"
+   },
+   "ambienceLight_profiles.profile7_brightness":{
+      "description":"ambienceLight_profiles Enthält Profilinformationen des Ambientelichts (Schmucklicht). (profile7_brightness)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2,
+      "unit":"percent"
+   },
+   "lateralAcceleration":{
+      "description":"lateralAcceleration Enthält die Querbeschleunigung in \u0026quot;g\u0026quot;. Beschleunigung in m/s² durch multiplikation mit g(\u003d9,81m/s²). (lateralAcceleration)",
+      "max":2.5,
+      "min":-2.5,
+      "resolution":0.01,
+      "type":2,
+      "unit":"g"
+   },
+   "Media_Track.Cover":{
+      "description":"Media_Track Informationen über den gerade abspielenden Track oder \u0026quot;no data\u0026quot; falls aktuell kein Track abgespielt wird.Title: Titel des Tracks.Artist: Künsteler des Tracks.Album: Album des Tracks.Cover: Cover des TracksLength: Länge des Tracks in Millisekunden. Sollte die Länge (Length) nicht berechenbar sein (z.B. durch VBR) wird diese auf \u0026quot;no data\u0026quot; gesetzt.Number: Position in einem Set. Z.B. die Track Nummer in einem Album oder auf einer Audio CD. (Cover)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "EcoHMI_Score.AvgTrip":{
+      "description":"EcoHMI_Score Eco Wert (bekannt als Blue Score bei VW) ist das Ergebnis einer Bewertungsprozesses für die ökologische Fahrweise. \u0026quot;noData\u0026quot; falls nicht verfügbar. (AvgTrip)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "hevacConfiguration.isRhdVehicle":{
+      "description":"hevacConfiguration Enthält Verbauinformationen des Fahrzeugs.HEVAC: Heating, Ventilation, Air ConditioningRHD: Rechtslenkerfahrzeug (isRhdVehicle)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "vehicleDate.day":{
+      "description":"vehicleDate Enthält das Fahrzeugdatum. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (day)",
+      "max":31.0,
+      "min":1.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"d"
+   },
+   "Radio_Text.ImageAvailable":{
+      "description":"Radio_Text Radio Text Informationen, soweit verfügbar.Nicht verfügbare Werte sind mit \u0026quot;no data\u0026quot; gekennzeichnet.Text: Radio Text, welcher vom aktuellen Sender gesendet wird.Artist: Künstler des gerade gespielten Stücks.Album: Album des gerade gespielten Stücks.Title: Titel des gerade gespielten Stücks.Image: Bildinformationen, soweit verfügbar. Z.B. DAB Bilder oder Cover. Wenn dieses Bild nicht verfügbar ist, aber ImageAvailable wahr ist, wird wahrscheinlich gerade ein Bild geladen.ImageAvailable: Wird gesetzt, wenn ein Bild verfügbar ist. Solange das Bild selbst nicht gesetzt ist, wird dieses noch geladen. (ImageAvailable)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "ambienceLight_brightness.state":{
+      "description":"ambienceLight_brightness Enthält die Helligkeitseinstellung für das Ambientelicht (Schmucklicht).Der Member \u0026quot;state\u0026quot; gibt den Einschaltezustand wieder; false\u003dausgeschaltet, true\u003deingeschaltet. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "seatHeater_zone2.state":{
+      "description":"seatHeater_zone2 Enthält die Heizstufe der Sitzheizung vorn rechts und den Zustand. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "lightState_rear.fogLight":{
+      "description":"lightState_rear Enthält den Zustand der Rückleuchten ohne Brems- und Blinklicht. TRUE:.. EIN FALSE:.. AUS (fogLight)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "oilLevel":{
+      "description":"oilLevel Enthält die Ölstandsinformationen. \u0026quot;noData\u0026quot; falls ungültig oder nicht verbaut. (level)",
+      "max":8.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "combustionEngineInjection.type":{
+      "description":"combustionEngineInjection Enthält den Type des Einspritzsystems der Verbrennungskraftmaschine (VKM). (type)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyrePressures.pressureRearLeft":{
+      "description":"tyrePressures Enthält die Ist-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureRearLeft)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Sound_BalanceFaderSetup.BalanceLeft":{
+      "description":"Sound_BalanceFaderSetup Bereiche f  r Fader und Balance Einstellungen. (BalanceLeft)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "Radio_TA.Frequency":{
+      "description":"Radio_TA Zeigt an, ob zum aktuellen Zeitpunkt eine Verkehrsmeldung durchgegeben wird und wo Ansagen verf  gbar sind. \u0026quot;no data\u0026quot; falls keine Ansagen verf  gbar sind.Active: Gesetzt, wenn gerade eine Verkehrsdurchsage aktiv ist. Die anderen Werte sind nur in diesem Fall gef  llt.StationName: Name des Senders, welche gerade die Verkehrsdurchsage sendet, wenn verf  gbar.Frequency: Frequenz des Senders, welcher die Verkehrsdurchsage sendet. Wird genutzt, wenn kein Sendername gesetzt ist. (Frequency)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0,
+      "unit":"Hz"
+   },
+   "Car_ambienceLightColour.ColourHMI":{
+      "description":"Car_ambienceLightColour enthält die Ambientenlichtfarbe des Infotainment HMI des Fahrzeugs. Kann durch den Klienten benutzt werden, um sich auf die Farbe/ Farbsatz des Fahrzeugs anzupassen.Nur lesbar. (ColourHMI)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "MediaBrowser_ListState":{
+      "description":"MediaBrowser_ListState Status der aktuellen Media Browser Liste.PageSize: Maximale Anzahl an Elementen, die in einem Aufruf verf  gbar sind.ListSize: Aktuelle Gesamtgr � �e der ListeModCount:  �nderungsz �hler. Jedes mal, wenn eine  �nderung an einer Bereits abgerufenen Seite durchgef  hrt wird, wird dieser Counter erh �ht.State: Status der Liste. (State)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "clampState.clamp_X":{
+      "description":"clampState Enthält den Klemmenzustand (z.B. Schlüsselkontakt, Zündung...) (clamp_X)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "hevacFanLevelRear.level_left":{
+      "description":"hevacFanLevelRear Enthält die Lüfterstufe hinten, links/rechts. Abhängig vom Verbau können eine oder beide Zonen \u0026quot;noData\u0026quot; liefern.isAutomatic \u003d\u003d true, wenn die Luftmenge (Lüfter) im Automatikbetrieb ist. (level_left)",
+      "max":12.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Nav_GuidanceDestination.Country":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Country)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Car_vehicleInformation.StickerBits":{
+      "description":"Car_vehicleInformation Dient der Auswahl von Fahrzeuggrafiken. Codierung/Bedeutung gemäß VW-Vorgaben. \u0026quot;noData\u0026quot; falls ungültig oder unbekannt. Die Encodierung des Fahrzeugtyps, z.B. 0203070200 für einen normalen Golf VII oder 0203070230 für einen Golf VII GTI. (StickerBits)",
+      "max":65535.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "currentGear":{
+      "description":"currentGear Enthält den Ist-Gang. \u0026quot;noData\u0026quot; bei ungültiger Information. (currentGear)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "suspensionStates.height_frontLeft":{
+      "description":"suspensionStates Enthält den Zustand/Höhenwerte der Fahrzeugachsen sofern  verfügbar. Andernfalls liefert das Objekt nur \u0026quot;noData\u0026quot;. (height_frontLeft)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"percent"
+   },
+   "clampState.clamp_S":{
+      "description":"clampState Enthält den Klemmenzustand (z.B. Schlüsselkontakt, Zündung...) (clamp_S)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "Nav_CurrentPosition.Housenumber":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Housenumber)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyreRequiredPressures.pressureRearLeft":{
+      "description":"tyreRequiredPressures Enthält die Soll-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureRearLeft)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Nav_GuidanceDestination.Latitude":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Latitude)",
+      "max":90.0,
+      "min":-90.0,
+      "resolution":1.0E-6,
+      "type":2,
+      "unit":"degree"
+   },
+   "Nav_GuidanceRemaining.DTD":{
+      "description":"Nav_GuidanceRemaining Angabe der noch zu fahrenden Zeit (RTT) und Strecke (DTD). \u0026quot;no data\u0026quot; wenn keine Route gesetzt ist. (DTD)",
+      "max":1.6E7,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"m"
+   },
+   "hevacConfiguration.numberOfRearFanSteps":{
+      "description":"hevacConfiguration Enthält Verbauinformationen des Fahrzeugs.HEVAC: Heating, Ventilation, Air ConditioningRHD: Rechtslenkerfahrzeug (numberOfRearFanSteps)",
+      "max":12.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Nav_CurrentPosition.Altitude":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Altitude)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2,
+      "unit":"m"
+   },
+   "MediaBrowser_ListState.ModCount":{
+      "description":"MediaBrowser_ListState Status der aktuellen Media Browser Liste.PageSize: Maximale Anzahl an Elementen, die in einem Aufruf verf  gbar sind.ListSize: Aktuelle Gesamtgr � �e der ListeModCount:  �nderungsz �hler. Jedes mal, wenn eine  �nderung an einer Bereits abgerufenen Seite durchgef  hrt wird, wird dieser Counter erh �ht.State: Status der Liste. (ModCount)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "WebRadio_CurrentStation.shortName":{
+      "description":"WebRadio_CurrentStation Aktuell abgespielter Web-Radiosender oder Podcast-Episode. Leer wenn Webradio nicht verwendet wird. (shortName)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "MediaBrowser_ListState.PageSize":{
+      "description":"MediaBrowser_ListState Status der aktuellen Media Browser Liste.PageSize: Maximale Anzahl an Elementen, die in einem Aufruf verf  gbar sind.ListSize: Aktuelle Gesamtgr � �e der ListeModCount:  �nderungsz �hler. Jedes mal, wenn eine  �nderung an einer Bereits abgerufenen Seite durchgef  hrt wird, wird dieser Counter erh �ht.State: Status der Liste. (PageSize)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "consumptionShortTermGeneral.distanceUnit":{
+      "description":"consumptionShortTermGeneral Enthält die allgemeinen Daten des Kurzzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. Die Einheiten sind variabel und werden zusammen mit den Skalarwerten geliefert. (distanceUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "EcoHMI_Score.AvgShort":{
+      "description":"EcoHMI_Score Eco Wert (bekannt als Blue Score bei VW) ist das Ergebnis einer Bewertungsprozesses für die ökologische Fahrweise. \u0026quot;noData\u0026quot; falls nicht verfügbar. (AvgShort)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Radio_Text":{
+      "description":"Radio_Text Radio Text Informationen, soweit verfügbar.Nicht verfügbare Werte sind mit \u0026quot;no data\u0026quot; gekennzeichnet.Text: Radio Text, welcher vom aktuellen Sender gesendet wird.Artist: Künstler des gerade gespielten Stücks.Album: Album des gerade gespielten Stücks.Title: Titel des gerade gespielten Stücks.Image: Bildinformationen, soweit verfügbar. Z.B. DAB Bilder oder Cover. Wenn dieses Bild nicht verfügbar ist, aber ImageAvailable wahr ist, wird wahrscheinlich gerade ein Bild geladen.ImageAvailable: Wird gesetzt, wenn ein Bild verfügbar ist. Solange das Bild selbst nicht gesetzt ist, wird dieses noch geladen. (Text)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "lightState_front.daytimeRunningLight":{
+      "description":"lightState_front Enthält den Zustand der Frontbeleuchtung ohne Blinklicht. TRUE: EIN FALSE: AUS (daytimeRunningLight)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "displayNightDesign":{
+      "description":"displayNightDesign Enthält die Information, ob die Navigationskarte/das HMI auf Nachtdesign geschaltet werden kann. Dies erfolgt nur, wenn der Kunde die Nachtumschaltung auf \u0026quot;automatisch\u0026quot; gestellt hat. das Objekt hat einen Ereignischarakter! TRUE: Nachtdesign; FALSE: Tagdesign. (nightDesign)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "tyreStates.stateFrontRight":{
+      "description":"tyreStates Enthält die Reifenzustände je Rad inkl. Ersatzrad, den Verbundzustand und das RDK-System. (stateFrontRight)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "engineSpeed":{
+      "description":"engineSpeed Enthält die Motordrehzahl (int). (engineSpeed)",
+      "max":12282.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"1/min"
+   },
+   "ambienceLight_installation.al_stateAutomatic_available":{
+      "description":"ambienceLight_installation Enthält Verbauinformationen des Ambientelichts/Schmucklichts. (al_stateAutomatic_available)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "oilLevel.systemAvailable":{
+      "description":"oilLevel Enthält die Ölstandsinformationen. \u0026quot;noData\u0026quot; falls ungültig oder nicht verbaut. (systemAvailable)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "suspensionProfile":{
+      "description":"suspensionProfile Enthält das momentane Luftfederprofil.\u0026quot;noData\u0026quot; falls nicht verfügbar. (profile)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Sound_Volume":{
+      "description":"Sound_Volume Volume enthält die aktuelle Lautstärke in Schritten. Die möglichen Schritte werden in Sound_VolumeSetup beschrieben. Source enthält die aktuelle Quelle. Sollte die Quelle \u0026quot;Entertainment\u0026quot; stummgeschaltet sein, ist das entsprechende Feld gesetzt.Veränderung über Sound_IncreaseVolume/Sound_DescreaseVolume möglich. (Volume)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2,
+      "unit":"steps"
+   },
+   "longTermConsumptionSecondary":{
+      "description":"longTermConsumptionSecondary Enthält den MFA-Langzeitdurchchnittsverbrauch des Sekundärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (value)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "acceleratorKickDown":{
+      "description":"acceleratorKickDown Information über \u0026quot;kick-down\u0026quot; des Gaspedals. Wert ist False, wenn kein Kick-Down. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (acceleratorKickDown)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "Car_vehicleInformation.Type":{
+      "description":"Car_vehicleInformation Dient der Auswahl von Fahrzeuggrafiken. Codierung/Bedeutung gemäß VW-Vorgaben. \u0026quot;noData\u0026quot; falls ungültig oder unbekannt. Die Encodierung des Fahrzeugtyps, z.B. 0203070200 für einen normalen Golf VII oder 0203070230 für einen Golf VII GTI. (Type)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "recommendedGear":{
+      "description":"recommendedGear Enthält den empfohlenen Gang (Soll-Gang). \u0026quot;noData\u0026quot; bei ungültiger Information. (recommendedGear)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "engineTypes.secondaryEngine":{
+      "description":"engineTypes Enthält die Antriebsinformation (Motortyp) des Fahrzeugs. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (secondaryEngine)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyrePressures.pressureSpareWheel":{
+      "description":"tyrePressures Enthält die Ist-Reifendrücke einschl. Ersatzrad. Druckeinheit beachten (Member pressureUnit)! (pressureSpareWheel)",
+      "max":630.0,
+      "min":-630.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Radio_Tuner.ServiceId":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (ServiceId)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0
+   },
+   "shortTermConsumptionSecondary.state":{
+      "description":"shortTermConsumptionSecondary Enthält den MFA-Kurzzeitdurchchnittsverbrauch (\u0026quot;ab Start\u0026quot;) des Sekundärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "shortTermConsumptionPrimary.state":{
+      "description":"shortTermConsumptionPrimary Enthält den MFA-Kurzzeitdurchchnittsverbrauch (\u0026quot;ab Start\u0026quot;) des Primärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "lightState_front.lowBeamHeadlight":{
+      "description":"lightState_front Enthält den Zustand der Frontbeleuchtung ohne Blinklicht. TRUE: EIN FALSE: AUS (lowBeamHeadlight)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "Nav_CurrentPosition.Description":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Description)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Nav_GuidanceDestination.Longitude":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Longitude)",
+      "max":180.0,
+      "min":-180.0,
+      "resolution":1.0E-6,
+      "type":2,
+      "unit":"degree"
+   },
+   "System_activeSource.SourceContext":{
+      "description":"System_activeSource Enthält die Info, welcher Kontext für die Audiowiedergabe \u0026quot;verantwortlich\u0026quot; ist. Liefert \u0026quot;noData\u0026quot; falls diese Information nicht verfügbar oder ungültig ist. SPI:.. Smart Phone Integration (SourceContext)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "WebRadio_CurrentStation.Cover":{
+      "description":"WebRadio_CurrentStation Aktuell abgespielter Web-Radiosender oder Podcast-Episode. Leer wenn Webradio nicht verwendet wird. (Cover)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "hevacFanLevelRear.automatic_right":{
+      "description":"hevacFanLevelRear Enthält die Lüfterstufe hinten, links/rechts. Abhängig vom Verbau können eine oder beide Zonen \u0026quot;noData\u0026quot; liefern.isAutomatic \u003d\u003d true, wenn die Luftmenge (Lüfter) im Automatikbetrieb ist. (automatic_right)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "currentTorque":{
+      "description":"currentTorque Enthält das Momentanmoment (Ist-Drehmoment) in Nm. (currentTorque)",
+      "max":1527.0,
+      "min":-1527.0,
+      "resolution":1.0,
+      "type":2,
+      "unit":"Nm"
+   },
+   "tyreTemperatures.temperatureSpareWheel":{
+      "description":"tyreTemperatures Enthält die Reifentemperaturen einschließlich Reserverad. (temperatureSpareWheel)",
+      "max":382.0,
+      "min":-76.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "Radio_Tuner.Frequency":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (Frequency)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":1.0,
+      "type":2.0,
+      "unit":"Hz"
+   },
+   "doorState.trunkState":{
+      "description":"doorState Enthält den Türen- und Verriegelungszustand des Fahrzeugs. (trunkState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Media_PlayerState":{
+      "description":"Media_PlayerState Beinhaltet- die aktuelle Position in ms- den Wiedergabestatus- die globale Entry ID- den Typ des aktuellen abgespielten Eintrags (State)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "outsideTemperature":{
+      "description":"outsideTemperature Enthält die Außentemperatur wie vom Kombiinstrument angezeigt. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. Für Gültigkeit der Anzeige muss der Parameter \u0026quot;state\u0026quot; zusätzlich ausgewertet werden. (temperature)",
+      "max":171.0,
+      "min":-58.0,
+      "resolution":0.1,
+      "type":2
+   },
+   "tyreStates.stateSpareWheel":{
+      "description":"tyreStates Enthält die Reifenzustände je Rad inkl. Ersatzrad, den Verbundzustand und das RDK-System. (stateSpareWheel)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "doorState.lockstate":{
+      "description":"doorState Enthält den Türen- und Verriegelungszustand des Fahrzeugs. (lockstate)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "System_HMISkin":{
+      "description":"System_HMISkin Aktuell verwendeter HMI Skin. (Skin)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Nav_CurrentPosition.PostalCode":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (PostalCode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "unitDateFormat":{
+      "description":"unitDateFormat Enthält das Datumsformat des Fahrzeugs. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (dateFormat)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "WebRadio_CurrentStation.CoverPreview":{
+      "description":"WebRadio_CurrentStation Aktuell abgespielter Web-Radiosender oder Podcast-Episode. Leer wenn Webradio nicht verwendet wird. (CoverPreview)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "ambienceLight_sets.set_3":{
+      "description":"ambienceLight_sets Enthält die Helligkeit der individuelles Beleuchtungsgruppen. Nicht verbaute Beleuchtunsggruppen sind auf \u0026quot;noData\u0026quot; gesetzt. \u0026quot;0\u0026quot; bedeutet \u0026quot;aus\u0026quot;. (set_3)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "ambienceLight_sets.set_4":{
+      "description":"ambienceLight_sets Enthält die Helligkeit der individuelles Beleuchtungsgruppen. Nicht verbaute Beleuchtunsggruppen sind auf \u0026quot;noData\u0026quot; gesetzt. \u0026quot;0\u0026quot; bedeutet \u0026quot;aus\u0026quot;. (set_4)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "ambienceLight_sets.set_5":{
+      "description":"ambienceLight_sets Enthält die Helligkeit der individuelles Beleuchtungsgruppen. Nicht verbaute Beleuchtunsggruppen sind auf \u0026quot;noData\u0026quot; gesetzt. \u0026quot;0\u0026quot; bedeutet \u0026quot;aus\u0026quot;. (set_5)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "coolantTemperature":{
+      "description":"coolantTemperature Enthält die Kühlmitteltemperatur mit variabler Einheit wie im Kombiinstrument angezeigt. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (temperature)",
+      "max":300.0,
+      "min":-60.0,
+      "resolution":0.1,
+      "type":2,
+      "unit":"°C"
+   },
+   "ambienceLight_sets.set_6":{
+      "description":"ambienceLight_sets Enthält die Helligkeit der individuelles Beleuchtungsgruppen. Nicht verbaute Beleuchtunsggruppen sind auf \u0026quot;noData\u0026quot; gesetzt. \u0026quot;0\u0026quot; bedeutet \u0026quot;aus\u0026quot;. (set_6)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "ambienceLight_sets.set_7":{
+      "description":"ambienceLight_sets Enthält die Helligkeit der individuelles Beleuchtungsgruppen. Nicht verbaute Beleuchtunsggruppen sind auf \u0026quot;noData\u0026quot; gesetzt. \u0026quot;0\u0026quot; bedeutet \u0026quot;aus\u0026quot;. (set_7)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "ambienceLight_sets.set_8":{
+      "description":"ambienceLight_sets Enthält die Helligkeit der individuelles Beleuchtungsgruppen. Nicht verbaute Beleuchtunsggruppen sind auf \u0026quot;noData\u0026quot; gesetzt. \u0026quot;0\u0026quot; bedeutet \u0026quot;aus\u0026quot;. (set_8)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "temperatureRearLeft":{
+      "description":"temperatureRearLeft Enthält die Solltemperatur des Fondraums links. Liefert \u0026quot;noData\u0026quot;, wenn nicht verfügbar. (value)",
+      "max":255.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "Nav_GuidanceDestination.PostalCode":{
+      "description":"Nav_GuidanceDestination Enthält die Daten der aktuellen Zielführung. \u0026quot;noData\u0026quot; wenn keine Zielführung aktiv ist. Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (PostalCode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "hevacFanLevelRear.level_right":{
+      "description":"hevacFanLevelRear Enthält die Lüfterstufe hinten, links/rechts. Abhängig vom Verbau können eine oder beide Zonen \u0026quot;noData\u0026quot; liefern.isAutomatic \u003d\u003d true, wenn die Luftmenge (Lüfter) im Automatikbetrieb ist. (level_right)",
+      "max":12.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "ambienceLight_sets.set_1":{
+      "description":"ambienceLight_sets Enthält die Helligkeit der individuelles Beleuchtungsgruppen. Nicht verbaute Beleuchtunsggruppen sind auf \u0026quot;noData\u0026quot; gesetzt. \u0026quot;0\u0026quot; bedeutet \u0026quot;aus\u0026quot;. (set_1)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "ambienceLight_sets.set_2":{
+      "description":"ambienceLight_sets Enthält die Helligkeit der individuelles Beleuchtungsgruppen. Nicht verbaute Beleuchtunsggruppen sind auf \u0026quot;noData\u0026quot; gesetzt. \u0026quot;0\u0026quot; bedeutet \u0026quot;aus\u0026quot;. (set_2)",
+      "max":100.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "SPI_ConnectedDevice.SPI_Device":{
+      "description":"SPI_ConnectedDevice SPI_Smart Phone Integration  Enth �lt die Informationen   ber ein per \u0026quot;SPI\u0026quot; verbundenes \u0026quot;Smart Phone\u0026quot;, dessen Namen und den Verbindungstyp. SPI_avaialble: FALSE: SPI-Schnittstelle ist nicht verbaut; TRUE: SPI-Schnittstelle ist verbaut. AudioPlayback: TRUE: Das SPI-Audiosignal wird wiedergegeben; FALSE: Das SPI-Audiosignal wird nicht wiedergegeben. (SPI_Device)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "Nav_GuidanceState":{
+      "description":"Nav_GuidanceState Enthält den Zustand der Zielführung. (state)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "tyreTemperatures.temperatureFrontLeft":{
+      "description":"tyreTemperatures Enthält die Reifentemperaturen einschließlich Reserverad. (temperatureFrontLeft)",
+      "max":382.0,
+      "min":-76.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "hevacFanLevelRear.levelRegulated_right":{
+      "description":"hevacFanLevelRear Enthält die Lüfterstufe hinten, links/rechts. Abhängig vom Verbau können eine oder beide Zonen \u0026quot;noData\u0026quot; liefern.isAutomatic \u003d\u003d true, wenn die Luftmenge (Lüfter) im Automatikbetrieb ist. (levelRegulated_right)",
+      "max":12.0,
+      "min":0.0,
+      "resolution":1.0,
+      "type":2
+   },
+   "consumptionShortTermGeneral.speedValue":{
+      "description":"consumptionShortTermGeneral Enthält die allgemeinen Daten des Kurzzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. Die Einheiten sind variabel und werden zusammen mit den Skalarwerten geliefert. (speedValue)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "System_ProximityRecognition.InRange":{
+      "description":"System_ProximityRecognition Ereignis wird ausgelöst, sobald ein Objekt in der Nähe des Displays detektiert wird. (InRange)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   },
+   "Radio_Tuner.Name":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (Name)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "tyreStates.stateFrontLeft":{
+      "description":"tyreStates Enthält die Reifenzustände je Rad inkl. Ersatzrad, den Verbundzustand und das RDK-System. (stateFrontLeft)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_Text.Image":{
+      "description":"Radio_Text Radio Text Informationen, soweit verfügbar.Nicht verfügbare Werte sind mit \u0026quot;no data\u0026quot; gekennzeichnet.Text: Radio Text, welcher vom aktuellen Sender gesendet wird.Artist: Künstler des gerade gespielten Stücks.Album: Album des gerade gespielten Stücks.Title: Titel des gerade gespielten Stücks.Image: Bildinformationen, soweit verfügbar. Z.B. DAB Bilder oder Cover. Wenn dieses Bild nicht verfügbar ist, aber ImageAvailable wahr ist, wird wahrscheinlich gerade ein Bild geladen.ImageAvailable: Wird gesetzt, wenn ein Bild verfügbar ist. Solange das Bild selbst nicht gesetzt ist, wird dieses noch geladen. (Image)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Media_PlayMode.PMLTMode":{
+      "description":"Media_PlayMode Gibt den aktuellen Abpspielmodus, z.B. repeat.Mode: Wiederholungsmodus f  r die Wiedergabe.MixMode: Mix Modus f  r die Wiedergabe.PMLTMode: Play more like this / Mehr wie dieses Spielen Modus f  r die Wiedergabe. (PMLTMode)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "cycleConsumptionPrimary":{
+      "description":"cycleConsumptionPrimary Enthält den Durchchnittsverbrauch des Primärantriebes seit Tanken mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (value)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2,
+      "unit":"l/100km"
+   },
+   "serviceInspection.distanceState":{
+      "description":"serviceInspection Enthält die Daten für den Inspektionsservice (\u0026quot;Durchsicht\u0026quot;). (distanceState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "serviceOil.distanceState":{
+      "description":"serviceOil Enthält die Daten für den Ölservice. (distanceState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Radio_Tuner.FrequencyLabel":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (FrequencyLabel)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0.0
+   },
+   "totalDistance.unit":{
+      "description":"totalDistance Enthält die Gesamtwegstrecke des Fahrzeugs, wie im Kombiinstrument angezeigt. Die Streckeneinheit ist variabel.\u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (unit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "Media_Track.Album":{
+      "description":"Media_Track Informationen über den gerade abspielenden Track oder \u0026quot;no data\u0026quot; falls aktuell kein Track abgespielt wird.Title: Titel des Tracks.Artist: Künsteler des Tracks.Album: Album des Tracks.Cover: Cover des TracksLength: Länge des Tracks in Millisekunden. Sollte die Länge (Length) nicht berechenbar sein (z.B. durch VBR) wird diese auf \u0026quot;no data\u0026quot; gesetzt.Number: Position in einem Set. Z.B. die Track Nummer in einem Album oder auf einer Audio CD. (Album)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "unitVolume.volumeUnit":{
+      "description":"unitVolume Enthält die Volumeneinheit des Fahrzeugs. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. (volumeUnit)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "currentConsumptionPrimary":{
+      "description":"currentConsumptionPrimary Enthält den Momentanverbrauch des Primärantriebes mit variabler Einheit. \u0026quot;noData\u0026quot; falls ungültig oder nicht verfügbar. (value)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.01,
+      "type":2
+   },
+   "Radio_Tuner.FMOnlySet":{
+      "description":"Radio_Tuner Gibt die aktuellen Tuner Einstellungen an.Es sind so viele Informationen wie m �glich angegeben. Das verwendete Band ist immer angegeben.Name: Name des Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.Frequency: Frequenz des Senders in Hz, wenn verf  gbar.Band_Type: Band, auf welchem der Sender liegt, wenn verf  gbar.PICode: Programme Identification Code (PI Code) f  r den Sender, wenn verf  gbar.ShortName: Kurznamedes Radiosenders (oder Ensembles, Dienst, etc.), wenn verf  gbar.RDS: Zeigt an, ob der Sender Radio Data System (RDS) unterst  tzt.TP: Zeigt an, ob der Sender Traffic Pilot (TP) unterst  tzt.FrequencyLabel: Nur f  r DAB: Frequenzlabel, wenn verf  gbar.ServiceId: Nur f  r DAB: Service Identifier (SId), wenn verf  gbar.EnsembleId: Nur f  r DAB: Ensemble Identifier (EId), wenn verf  gbar.ExtendedCountryCode: Nur f  r DAB: Extended Country Code (ECC), wenn verf  gbar.ServiceComponentId: Nur f  r DAB: Service Component Identifier (SCID), wenn verf  gbar.Cover: Stations logo, wenn verf  gbar. (FMOnlySet)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3.0
+   },
+   "brakePressure":{
+      "description":"brakePressure Enhält den Bremsdruck. (brakePressure)",
+      "max":276.6,
+      "min":-30.0,
+      "resolution":0.1,
+      "type":2,
+      "unit":"bar"
+   },
+   "relChargingAirPressure":{
+      "description":"relChargingAirPressure Enthält den relativen Ladedruck in Prozent (%). (relChargingAirPressure)",
+      "max":1.0,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "Nav_CurrentPosition.Street":{
+      "description":"Nav_CurrentPosition Im Vergleich zu Nav_GeoPosition gibt dieses Objekt alle derzeitigen für die aktuelle Position verfügbaren Informationen aus.Latitude: Latitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.Longitude: Longitude in Dezimaldarstellung, berechnet durch Grad + Minuten/60 + seconds/3600, cf. RFC 2426.FormattedString: Wenn verfügbar, ein formatierter String, welcher die Adresse darstellt.Street: Die Straße der Adresse, könnte die Hausnummer enthalten.City: Stadt der Adresse, wenn verfügbar.Country: Ländercode, wie in ISO3166-2 beschrieben.Housenumber: Hausnummer der Adresse, wenn seperat verfügbar. Häufig Teil der Straße.Zip: Postleitzahl der Adresse, wenn verfügbar.State: Bundesland der Adresse, wenn verfügbar.Altitude: Höhe in Metern über dem WGS 84 Ellipsoid. Beschrieben in \u0026apos;National Imagery and Mapping Agency Technical Report 8520.2, Third Edition\u0026apos;. (Street)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "ambienceLight_profiles.activeProfile":{
+      "description":"ambienceLight_profiles Enthält Profilinformationen des Ambientelichts (Schmucklicht). (activeProfile)",
+      "max":3.4028235E38,
+      "min":0.0,
+      "resolution":0.01,
+      "type":2
+   },
+   "consumptionShortTermGeneral.speedValueState":{
+      "description":"consumptionShortTermGeneral Enthält die allgemeinen Daten des Kurzzeitintervals der MFA. \u0026quot;noData\u0026quot; falls nicht verfügbar oder ungültig. Die Einheiten sind variabel und werden zusammen mit den Skalarwerten geliefert. (speedValueState)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":0
+   },
+   "hevacConfiguration.isRearExternalDisplay":{
+      "description":"hevacConfiguration Enthält Verbauinformationen des Fahrzeugs.HEVAC: Heating, Ventilation, Air ConditioningRHD: Rechtslenkerfahrzeug (isRearExternalDisplay)",
+      "max":3.4028235E38,
+      "min":1.4E-45,
+      "resolution":0.0,
+      "type":3
+   }
+}
